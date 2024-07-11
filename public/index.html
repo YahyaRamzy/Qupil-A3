@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MCQ Quiz</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>MCQ Quiz</h1>
+    <div class="question" id="q1">
+      <p>1. بسم الله الرحمن ........</p>
+      <label><input type="radio" name="q1" id="q1a" value="a"> الرحيم</label>
+      <label><input type="radio" name="q1" id="q1b" value="b"> الكريم</label>
+      <label><input type="radio" name="q1" id="q1c" value="c"> التواب</label>
+      <button class="micButton" data-question="q1">تسجيل الإجابة</button>
+      <p class="resultCorrect"></p>
+      <p class="resultInCorrect"></p>
+      <button class="playCorrectAnswer">استمع للإجابة الصحيحة</button>
+      <audio class="correctAnswerAudio" src=""></audio>
+    </div>
+
+    <div class="question" id="q2">
+        <p>2.  قُلْ هُوَ ٱللَّهُ أَحَدٌ ١ٱللَّهُ ..... ٢</p>
+        <label><input type="radio" name="q2" id="q2a" value="a"> الصمد</label>
+        <label><input type="radio" name="q2" id="q2b" value="b"> الرحمن</label>
+        <label><input type="radio" name="q2" id="q2c" value="c"> الكريم</label>
+        <button class="micButton" data-question="q2">تسجيل الإجابة</button>
+      <p class="resultCorrect"></p>
+      <p class="resultInCorrect"></p>
+      <button class="playCorrectAnswer">استمع للإجابة الصحيحة</button>
+      <audio class="correctAnswerAudio" src=""></audio>
+      </div>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>
